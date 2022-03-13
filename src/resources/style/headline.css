@@ -1,0 +1,23 @@
+.stock-details {
+    display: block;
+    font-size: 16px;
+    font-family: arial;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+}
+.wrapper span {
+    margin: 1px;
+}
+.stats-name {
+    margin: 2px;
+    padding: 2px;
+    font-weight: bold;
+}

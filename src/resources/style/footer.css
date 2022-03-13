@@ -1,0 +1,16 @@
+.footer {
+    /* display: block;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    font-family: arial;
+    background-color: #333; */
+
+    color: white;
+    padding: 5px;
+    font-family: arial;
+    font-style: italic;
+    font-weight: 900;
+    background-color: #333;
+
+}

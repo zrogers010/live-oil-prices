@@ -1,0 +1,124 @@
+.news-container{
+    width: 95%;
+    marginLeft: auto;
+    marginRight: auto;
+    /* justify-content: center;
+    width: 80%;
+    marginLeft: auto;
+    marginRight: auto; */
+} 
+
+.news-container ul {
+    list-style: none;
+}
+
+/* .news-container li:after {
+    clear: both;
+} */
+
+.news-container a {
+    /* color: #333; */
+}
+
+.news-container a:hover {
+    background-color: #111;
+}
+
+.news-headline {
+    float: center;
+    color: #333;
+    display: block;
+    font-family: arial;
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.article {
+    list-style-type: none;
+    padding: 0;
+    font-family: arial;
+    overflow: hidden;
+    border-bottom: 1px solid #333;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    /* float: left; */
+    justify-content: center;
+    color: #333;
+}
+
+.article-left {
+    float: left;
+    width: 30%;
+    height: auto;
+}
+
+.article-right {
+    float: right;
+    width: 70%;
+    height: auto;
+}
+
+.article-image {
+    display: block;
+    /* margin: 5px; */
+    padding: 5px;
+    min-width: 250px;
+}
+
+.article-title {
+    display: block;
+    color: #333;
+    /* float: left; */
+    text-align: left;
+    /* position: relative; */
+    width: 90% !important;
+    height: auto;
+    padding: 5px;
+    font-family: arial;
+    font-size: large;
+}
+
+.article-summary {
+    /* max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-align: left;
+    width: 90% !important;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    /* margin-right:20px; */
+    font-family: arial;
+    font-size: small;
+    color: #333;
+} 
+
+.article-source {
+    display: block;
+    font-size: x-small;
+    padding: 5px;
+    width: 90%;
+    height: auto;
+    text-align: left;
+    color: #333;
+}
+
+.article-date {
+    display: block;
+    font-size: x-small;
+    padding: 5px;
+    width: 90%;
+    height: auto;
+    text-align: left;
+    color: #333;
+}
