@@ -14,12 +14,6 @@ export const getSummary = {
 	
 	energy_url: (symbol) => {
 		return `${iex.base_url}/time-series/energy/${symbol}?token=${iex.api_token}`
-		// return `${iex.base_url}/time-series/energy/DCOILWTICO?token=${iex.api_token}`
-		
-		// WTI crude
-		// https://cloud.iexapis.com/stable/time-series/energy/DCOILWTICO?token=pk_ed2c04cd7023450d8454cb7fd45ee267
-
-
 	},
 	
 	formatData: (data) => {
@@ -30,8 +24,6 @@ export const getSummary = {
 		formattedData.date = data[0].date
 		formattedData.updated = data[0].updated
 
-		// Sconsole.log("formattedData :", formattedData)
-		
 		return formattedData
 	}
 }

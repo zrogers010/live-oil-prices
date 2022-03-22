@@ -21,6 +21,7 @@
     font-family: arial;
     font-style: italic;
     font-weight: 900;
+    font-variant: small-caps;
     margin: 1rem;
     padding-left: 5px;
 }
@@ -35,6 +36,7 @@
     color: white;
     font-size: large;
     font-family: arial;
+    font-variant: small-caps;
     margin: 0.5rem;
     padding-right: 5px;
 }
@@ -46,6 +48,7 @@
     text-align: left;
     font-size: large;
     font-family: arial;
+    font-variant: small-caps;
     margin: 0.5rem;
 }
 

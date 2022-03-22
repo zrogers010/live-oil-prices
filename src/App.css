@@ -36,6 +36,13 @@
   height: 100%;
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: small;
+}
+
 
 @keyframes App-logo-spin {
   from {

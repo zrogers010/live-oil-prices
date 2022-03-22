@@ -37,15 +37,12 @@ class News extends Component {
                                     <div className="article-left">
                                         <div className="article-image">
                                             <img src={ d.image } width="220" height="124" image-rendering="smooth"/>
-                                            {/* <img src={ d.image } width="300px" height="169" image-rendering="smooth"/> */}
                                         </div>
                                     </div>
                                     <div className="article-right">
-                                        {/* <a href={d.url}> */}
                                             <div className="article-title">
                                                 <a href={d.url}>{ d.headline }</a>
                                             </div>
-                                        {/* </a> */}
                                         <div className="article-source">
                                             { d.source }
                                         </div>
@@ -61,6 +58,7 @@ class News extends Component {
                         )
                     })}
 				</ul>
+            <div className='buffer'> </div>
             </div>
 			</>
         )

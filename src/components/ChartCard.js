@@ -15,8 +15,7 @@ class Chart extends Component {
                     theme={Themes.LIGHT}
                     locale="en"
                     autosize
-                    allow_symbol_change={true}
-                    //hide_side_toolbar={false}
+                    allow_symbol_change={false}
                     />
                 </div>
             </div>

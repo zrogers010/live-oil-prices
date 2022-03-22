@@ -9,8 +9,8 @@ import Gas from './tabs/Gas.js';
 import JetFuel from './tabs/JetFuel.js';
 import Diesel from './tabs/Diesel.js';
 import HeatingOil from './tabs/HeatingOil.js';
-import Chart from './Chart.js';
-import Stats from './Stats.js';
+import ChartCard from './ChartCard.js';
+//import Stats from './Stats.js';
 import News from './News.js';
 import "react-tabs/style/react-tabs.css";
 import "../resources/style/summary.css";
@@ -53,37 +53,37 @@ class Summary extends Component {
                     </TabList>
                     <div>
                     <TabPanel>
-                        <Chart symbol={"NYMEX:CL1!"}/>
+                        <ChartCard symbol={"NYMEX:CL1!"}/>
                         {/* <Stats /> */}
                         <News symbol={"USO"}/>
                     </TabPanel>
                     <TabPanel>
-                        <Chart symbol={"NYMEX:BB1!"}/>
+                        <ChartCard symbol={"NYMEX:BB1!"}/>
                         {/* <Stats /> */}
                         <News symbol={"BNO"}/>
                     </TabPanel>
                     <TabPanel>
-                        <Chart symbol={"NYMEX:NG1!"}/>
+                        <ChartCard symbol={"NYMEX:NG1!"}/>
                         {/* <Stats /> */}
                         <News symbol={"UNG"}/>
                     </TabPanel>
                     <TabPanel>
-                        <Chart symbol={"NYMEX:RB1!"}/>
+                        <ChartCard symbol={"NYMEX:RB1!"}/>
                         {/* <Stats /> */}
                         <News symbol={"UGA"}/>
                     </TabPanel>
                     <TabPanel>
-                        <Chart symbol={"NYMEX:AGE1!"}/>
+                        <ChartCard symbol={"NYMEX:AGE1!"}/>
                         {/* <Stats /> */}
                         <News symbol={"USO"}/>
                     </TabPanel>
                     <TabPanel>
-                        <Chart symbol={"NYMEX:AGT1!"}/>
+                        <ChartCard symbol={"NYMEX:AGT1!"}/>
                         {/* <Stats /> */}
                         <News symbol={"USO"}/>
                     </TabPanel>
                     <TabPanel>
-                        <Chart symbol={"NYMEX:YF1!"}/>
+                        <ChartCard symbol={"NYMEX:YF1!"}/>
                         {/* <Stats /> */}
                         <News symbol={"USO"}/>
                     </TabPanel>

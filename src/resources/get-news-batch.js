@@ -1,4 +1,5 @@
 import { iex } from '../config/iex.js';
+import { Dayjs } from 'dayjs';
 
 export const getNews = {
 
@@ -14,9 +15,12 @@ export const getNews = {
 	
 	latestNewsURL: (symbol) => {
 		return `${iex.base_url}/stock/${symbol}/news?token=${iex.api_token}`;
+		//const symbols = 'USO,BNO,UNG,UGA,GLD,UCO';
+		//return `https://cloud.iexapis.com/stable/stock/market/batch?symbols=aapl,fb&types=quote,news,chart&range=1m&last=5&
 	},
 	
 	formatNewsData: (data) => {
+		console.log("NEWS: ", data);
 		const news = []
 		for (let i=0; i<data.length; i++) {
             const formattedData = {}
